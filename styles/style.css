@@ -1,0 +1,55 @@
+html {
+    background-color: #305289;
+    font-size: 14px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: 'Indie Flower', cursive;
+  }
+
+  h1 {
+    
+    font-size: 30px; /* размер шрифта данных селекторов */
+    text-align: center; /* выравнивание по центру текста */
+  }
+  
+  h2 {
+
+    font-size: 30px; /* размер шрифта данных селекторов */
+    text-align: center; /* выравнивание по центру текста */
+
+
+  }
+  
+  p, li {
+    color: #00539F;
+    font-size: 20px; /* размер шрифта данных селекторов */
+    line-height: 2; /* расстояние между каждой строкой указанных селекторов */
+    letter-spacing: 2px; /* расстояние между каждой буквой во всех словах */
+  }
+
+  h1 {
+    margin: 0 auto;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 3px green; /* смещение тени в стороны и ее цвет*/
+  }
+
+  h2 {
+    margin: 0 auto;
+    padding: 20px 0;    
+    color: brown;
+    text-shadow: 3px 3px 3px green; /* смещение тени в стороны и ее цвет*/
+  }
+
+
+  body {
+    width: 1000px;
+    margin: 5em auto 5em; /* расположение в поле тела в рамке, 5em отступ сверху, auto делит пространство пополам и ставит в центр объект */
+    background-color:wheat; 
+    padding: 0 20px 20px 20px; /* вроде размеры самого тела в рамке */
+    border: 10px solid green; /* размер и цвет рамки тела */
+    text-shadow: 3px 3px 3px green;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
